@@ -1,0 +1,19 @@
+{
+  "Lua.runtime.version": "Lua 5.1",
+  "Lua.runtime.special": {
+    "reload": "require"
+  },
+  "Lua.runtime.builtin": {
+    "io": "disable",
+    "os": "disable",
+    "package": "disable",
+    "debug": "disable"
+  },
+  "Lua.workspace.checkThirdParty": false,
+  "Lua.diagnostics.disable": [
+    "lowercase-global"
+  ],
+  "files.associations": {
+    "*.toc": "ini"
+  }
+}

@@ -1,0 +1,9 @@
+.release/
+dist/
+*.zip
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vs/
+*.tmp
