@@ -1,6 +1,10 @@
 .release/
 dist/
 *.zip
+__pycache__/
+*.pyc
+config.local.json
+AGENTS.md
 .DS_Store
 Thumbs.db
 *.swp

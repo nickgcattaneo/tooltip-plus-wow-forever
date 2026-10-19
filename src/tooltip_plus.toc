@@ -1,0 +1,25 @@
+## Interface: 16001
+## Title: Tooltip+
+## Notes: Position and customize game tooltips on WoW Forever.
+## Author: Nick Cattaneo
+## Version: 0.2.0
+## SavedVariables: TooltipPlusDB
+## AllowLoadGameType: forever
+## ExcludeLoadGameType: standard, classic
+## Category: Interface
+## DefaultState: enabled
+
+core\constants.lua
+core\database.lua
+core\classify.lua
+core\anchor.lua
+core\content.lua
+core\fade.lua
+types\toolbar.lua
+types\world.lua
+types\player.lua
+config\edit_mode.lua
+config\menu.lua
+config\minimap_button.lua
+config\slash.lua
+main.lua
