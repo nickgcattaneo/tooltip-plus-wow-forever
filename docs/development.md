@@ -31,7 +31,7 @@ copy config.local.example.json config.local.json
 py scripts/install_dev.py
 ```
 
-That writes `.release/dev/TooltipPlus` (version like `0.2.0-dev.ac3b4eb`, SavedVariables `TooltipPlusDB`) and copies it to `addons_dir\TooltipPlus`. The TOC notes line is marked `Local dev build`. If a production `TooltipPlus` folder is already present, it is renamed to `TooltipPlus.prod-disabled` first. `--watch` restores that folder when you stop the watcher. After a one-shot install, restore with:
+That writes `.release/dev/TooltipPlus` (version like `1.0.0-dev.ac3b4eb`, SavedVariables `TooltipPlusDB`) and copies it to `addons_dir\TooltipPlus`. The TOC notes line is marked `Local dev build`. If a production `TooltipPlus` folder is already present, it is renamed to `TooltipPlus.prod-disabled` first. `--watch` restores that folder when you stop the watcher. After a one-shot install, restore with:
 
 ```bat
 py scripts/install_dev.py --restore-prod

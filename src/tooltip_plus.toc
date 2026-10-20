@@ -2,7 +2,7 @@
 ## Title: Tooltip+
 ## Notes: Position and customize game tooltips on WoW Forever.
 ## Author: Nick Cattaneo
-## Version: 0.2.0
+## Version: 1.0.0
 ## SavedVariables: TooltipPlusDB
 ## AllowLoadGameType: forever
 ## ExcludeLoadGameType: standard, classic
